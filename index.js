@@ -11,6 +11,6 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT);
 
 setInterval(() => {
-    https.get("https://disc-adventure.onrender.com/");
+    https.get(process.env.PING_URL);
     console.log("Ping Sent !")
 }, 300000);
