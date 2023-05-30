@@ -14,4 +14,4 @@ setInterval(() => {
     https.get(process.env.PING_URL);
     https.get(process.env.PING_URL2);
     console.log("Ping Sent !")
-}, 300000);
+}, 60000);
